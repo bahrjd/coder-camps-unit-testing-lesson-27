@@ -9,7 +9,8 @@ namespace ConsoleApp1
             var ski = new Ski();
             ski.LiftTicketCost = 106;
             ski.SkiResort = "Alta";
-            Console.WriteLine();
+            Console.WriteLine(ski);
+            Console.ReadLine();
         }
     }
 }
