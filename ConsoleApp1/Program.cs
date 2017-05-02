@@ -6,7 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var tada = new Classy { Who = "you", When = "now" };
+            Console.WriteLine(tada);
+            Console.ReadLine();
         }
     }
 }
